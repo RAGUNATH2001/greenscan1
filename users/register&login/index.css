@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+body{
+    background-image:url('https://images.unsplash.com/photo-1597932570098-5a11a0bbdd81?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fGFncmljdWx0dXJlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    outline: auto;
+}
+.heading{
+    color:rgb(44, 150, 30);
+    font-size: 30px;
+    text-align: center;
+    margin-top:1%;
+    font-family: "Sofia", sans-serif;
+    padding-bottom: 50px;
+    
+ text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+}
+.main{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    margin:0px 20px 0px 20px;
+    }
+fieldset{
+    text-align: center;
+    border:none;
+    border-top:2px solid yellow;
+    color:green;
+    font-size: 30px;
+    text-shadow: 2px 2px blue;
+}
+input{
+    text-align: center;
+    border-radius: 30px;
+    font-size: 20px;
+    
+   
+}
+input:hover{
+    text-align: center;
+    border-radius: 30px;
+    border:3px solid green;
+    
+   
+}
+input[type="text"]{
+    width:600px;
+    height: 40px;
+}
+input[type="tel"]{
+    width:500px;
+    height: 40px;
+}
+input[type="password"]{
+    width:400px;
+    height: 40px;
+}
+.register{
+    border-right: 2px solid red;
+}
+
+form{
+    padding:60px 0px 0px 0px;
+}
+.login:hover{
+    background-color:rgb(82, 168, 33,0.3);
+    border-radius: 30px;
+    border-right: 2px solid red;
+    border-left: 2px solid red;
+}
+.register:hover{
+    background-color:rgb(82, 168, 33,0.3);
+    border-radius: 30px;
+    border-left: 2px solid red;
+}
+.heading:hover{
+    background-color:rgb(82, 168, 33,0.3);
+    border-radius: 30px;
+    border-bottom: 2px solid red;
+}

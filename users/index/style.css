@@ -1,0 +1,61 @@
+body{
+    background-image: url('https://i.postimg.cc/rst7ntrJ/sun.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.barslide{
+    /* background-color:rgb(182, 168, 171,0.2); */
+    padding:10px;
+    margin-top:30px;
+    color:rgb(0, 255, 13);
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+img{
+    width:500px;
+}
+.group-grid{
+    position: relative;
+}
+.group-grid-a{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    
+}
+.group-grid div{
+    position: absolute;
+    visibility: hidden;
+  
+   padding-left:20px;
+   font-size: 40px;
+    color:blue;
+    text-align: center;
+  left:150px;
+  bottom: 50px;
+    background-color:rgba(175, 96, 6, 0.8);
+    border-radius: 30px;
+    border: 2px solid red;
+}
+.group-grid:hover div{
+    visibility: visible;
+    text-align: center;
+
+}
+.group-grid:hover{
+    background-color:green;
+}
+.brands{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
+li{
+    color:green;
+    font-size: 20px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+table{
+    color:red;
+    overflow-x:auto ;
+}
